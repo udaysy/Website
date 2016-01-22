@@ -1,0 +1,170 @@
+body{
+	margin: 0px;
+	font-family: 'Droid Sans', 'Ubuntu', sans-serif;
+}
+
+.main{
+	height: 700px;
+	background-image: url(images/background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@media screen and (min-width:1000px) {
+	#container{
+		height: 700px;
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+.header{
+	margin-top: 0px;
+	width: 1000px;
+}
+
+.logo{
+	float: left;
+	margin-top: 10px;
+	margin-left: 80px;
+}
+
+nav{
+	float: right;
+	margin-right: 80px;
+	margin-top: 26px;
+}
+
+.navbar{
+	color: #FFF;
+	font-size: 20px;
+	margin-left: 25px;
+	text-decoration: none;
+}
+
+.navbar:hover{
+	text-decoration:overline;
+}
+
+span{
+	width: 100%;
+}
+
+h1{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 60px;
+	color: #FFF;
+	text-align: center;
+	clear: both;
+	padding-top: 210px;
+}
+
+h2{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+	color: #FFF;
+	text-align: center;
+	clear: both;
+	margin-top: -25px;
+}
+
+/*Header Section*/
+.head{
+	width: 100%;
+	height: 350px;
+	background-image: url(images/background.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.port{
+	padding-top: 120px;
+}
+.portfolio{
+	width: 300px;
+	height: 250px;
+}
+.padding{
+	padding-left: 46px;
+}
+.one{
+	text-align: center;
+	margin-top: 46px;
+}
+.two{
+	text-align: center;
+	margin-top: 46px;
+}
+.three{
+	text-align: center;
+	margin-top: 46px;
+}
+.four{
+	text-align: center;
+	margin-top: 46px;
+}
+
+/*Testimonial Section*/
+p.name{
+	color: #5c5c8a;
+	font-size: 20px;
+	margin-top: 35px;
+}
+/*Footer section*/
+
+footer{
+	width: 100%;
+	height: 400px;
+	background-color: #676798;
+}
+h3{
+	color: #fff;
+}
+#foot{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 26px;
+}
+
+div.contact{
+	font-family: 'Ubuntu', sans-serif;
+	float: right;
+	margin-right: 170px;
+}
+div.social{
+	float: left;
+	margin-left: 150px;
+}
+a.social{
+	margin-right: 10px;
+}
+label{
+	color: #fff;
+}
+input.text{
+	height: 20px;
+	width: 250px;
+	border-radius: 5px;
+	border: none;
+}
+textarea.message{
+	height: 100px;
+	width: 250px;
+	border-radius: 5px;
+	border: none;
+}
+button.submit{
+	color: #fff;
+	height: 20px;
+	width: 250px;
+	border: none;
+	border-radius: 5px;
+	background-color:#111111;
+}
+button.submit:hover{
+	color: #fff;
+text-decoration: underline;
+}
